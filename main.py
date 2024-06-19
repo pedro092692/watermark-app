@@ -1,7 +1,3 @@
-from interface import Interface
+from app import App
 
-# Create app
-app = Interface()
-app.set_up_windows()
-app.windows.mainloop()
-
+app = App(title='Watermark App', size=(1280, 720))
